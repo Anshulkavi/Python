@@ -1,42 +1,35 @@
+# 🔁 Assignment 2: Loops & Conditionals in Python
+
+> This assignment focuses on practicing Python's control flow using **`if-else`** and **`for` loops**.
 
 ---
 
-### 📁 `assignment2_loops_conditions/README.md`
+## 📚 Task Summary
 
-```markdown
-# 🔁 Assignment 2: Loops and Conditionals in Python
-
-This folder includes solutions for **Assignment 2**, focused on using `if-else` and `for` loops.
-
----
-
-## 📘 Tasks Overview
-
-### ✅ Task 1: Check if a Number is Even or Odd
-
-**Problem Statement:**  
+### 🟩 Task 1: Check Even or Odd
+📌 **Problem:**  
 Write a Python program that:
-1. Takes an integer input from the user.
-2. Checks whether the number is even or odd using an if-else statement.
-3. Displays the result accordingly.
+- Takes an integer as input.
+- Uses an `if-else` statement to check if it’s even or odd.
+- Prints the result accordingly.
 
-**File:** `task1_even_odd.py`
+📄 **File:** `task1_even_odd.py`
 
 ---
 
-### ✅ Task 2: Sum of Integers from 1 to 50 Using a Loop
-
-**Problem Statement:**  
+### 🟩 Task 2: Sum from 1 to 50
+📌 **Problem:**  
 Write a Python program that:
-1. Uses a for loop to iterate from 1 to 50.
-2. Calculates the sum of all integers in the range.
-3. Displays the final sum.
+- Uses a `for` loop to iterate over numbers from 1 to 50.
+- Calculates and prints the sum.
 
-**File:** `task2_sum_1_to_50.py`
+📄 **File:** `task2_sum_1_to_50.py`
 
 ---
 
-## 💻 How to Run
+## ▶️ How to Run
+
+Make sure Python is installed, then run the files from terminal:
 
 ```bash
 python task1_even_odd.py
