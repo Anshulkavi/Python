@@ -13,7 +13,7 @@ Write a Python program that:
 - Uses an `if-else` statement to check if it’s even or odd.
 - Prints the result accordingly.
 
-📄 **File:** `task1_even_odd.py`
+📄 **File:** `task1.py`
 
 ---
 
@@ -23,7 +23,7 @@ Write a Python program that:
 - Uses a `for` loop to iterate over numbers from 1 to 50.
 - Calculates and prints the sum.
 
-📄 **File:** `task2_sum_1_to_50.py`
+📄 **File:** `task2.py`
 
 ---
 
@@ -32,5 +32,5 @@ Write a Python program that:
 Make sure Python is installed, then run the files from terminal:
 
 ```bash
-python task1_even_odd.py
-python task2_sum_1_to_50.py
+python task1.py
+python task2.py
