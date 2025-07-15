@@ -1,36 +1,49 @@
-# 🔁 Assignment 2: Loops & Conditionals in Python
+# Assignment 3: Functions & Modules in Python
 
-> This assignment focuses on practicing Python's control flow using **`if-else`** and **`for` loops**.
+## 📘 Module 4: Functions & Modules
+
+This assignment includes two tasks:
 
 ---
 
-## 📚 Task Summary
+## ✅ Task 1: Calculate Factorial Using a Function
 
-### 🟩 Task 1: Check Even or Odd
-📌 **Problem:**  
+### 🧩 Problem Statement
+
 Write a Python program that:
-- Takes an integer as input.
-- Uses an `if-else` statement to check if it’s even or odd.
-- Prints the result accordingly.
 
-📄 **File:** `task1.py`
+1. Defines a function named `factorial` that takes a number as an argument and calculates its factorial using a **loop or recursion**.
+2. Returns the calculated factorial.
+3. Calls the function with a **sample number** and prints the output.
 
----
+### 🧪 Example Output
 
-### 🟩 Task 2: Sum from 1 to 50
-📌 **Problem:**  
+If the function is called with the number `5`, the output should be:
+
+Factorial of 5 is: 120
+
+## ✅ Task 2: Using the `math` Module for Calculations
+
+### 🧩 Problem Statement
+
 Write a Python program that:
-- Uses a `for` loop to iterate over numbers from 1 to 50.
-- Calculates and prints the sum.
 
-📄 **File:** `task2.py`
+1. Prompts the user to enter a number.
+2. Uses the built-in `math` module to compute and display:
+   - ✅ The **square root** of the number
+   - ✅ The **natural logarithm (ln)** of the number
+   - ✅ The **sine** of the number (interpreted as radians)
+
+### 🧪 Example Output
+
+If the user enters `25`, the output should be:
+
+Square root: 5.0
+Logarithm: 3.2188758248682006
+Sine: -0.13235175009777303
 
 ---
 
-## ▶️ How to Run
-
-Make sure Python is installed, then run the files from terminal:
-
-```bash
-python task1.py
-python task2.py
+## ✍️ Author
+- **Name:** Anshul Kavishwar
+- **Date:** 15/07/25
