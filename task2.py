@@ -1,19 +1,18 @@
-import math
+# Step 1: Write initial data to the file with a newline
+data = input("Enter text to write to the file: ").strip()  
 
-num = float(input("Enter a number: "))
+with open("output.txt", "w") as file:
+    file.write(data + "\n")
+    print("Data successfully written to output.txt.\n")
 
-if num < 0:
-    print("Square root of negative number is not real.")
-else:
-    result = math.sqrt(num)
-    print("Square root:", result)
+# Step 2: Append additional data with a newline
+additional_data = input("Enter additional text to append: ").strip()
 
-if num <= 0:
-    print("Logarithm undefined for 0 or negative numbers.")
-else:
-    result1 = math.log(num)
-    print("Logarithm (base e):", result1)
+with open("output.txt", "a") as file:
+    file.write(additional_data + "\n")
+    print("Data successfully appended.\n")
 
-# Sine in degrees
-sine_value = math.sin(math.radians(num))
-print(f"Sine of {num}° is: {sine_value}")
+# Step 3: Read and display final contents
+with open("output.txt", "r") as file:
+    final_content = file.read()
+    print("Final content of output.txt:\n" + final_content)
