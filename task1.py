@@ -1,9 +1,7 @@
-n = int(input("Enter a number: "))
-def factorial(n):
-    if n < 2:
-        return 1
-    else:
-        return n * (factorial(n-1))    
-
-result = factorial(n)
-print(f"Factorial of {n} is:",result)        
+try:
+    with open('sample.txt', 'r') as file:
+        reading_file = file.read()
+        print("Reading file content:")
+        print(reading_file)
+except FileNotFoundError:
+    print("The file 'sample.txt' was not found.")
