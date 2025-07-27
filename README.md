@@ -1,49 +1,59 @@
-# Assignment 3: Functions & Modules in Python
+# File Handling Tasks in Python
 
-## 📘 Module 4: Functions & Modules
-
-This assignment includes two tasks:
+This project demonstrates basic file handling in Python through two simple tasks:
 
 ---
 
-## ✅ Task 1: Calculate Factorial Using a Function
+## ✅ Task 1: Read a File
 
-### 🧩 Problem Statement
+This script attempts to open and read the contents of a file named `sample.txt`. If the file does not exist, it gracefully handles the error and prints a message.
 
-Write a Python program that:
+### 🔹 Features
+- Reads content from an existing file
+- Handles `FileNotFoundError` exception
 
-1. Defines a function named `factorial` that takes a number as an argument and calculates its factorial using a **loop or recursion**.
-2. Returns the calculated factorial.
-3. Calls the function with a **sample number** and prints the output.
+## ✅ Task 2: Write, Append, and Read from a File
 
-### 🧪 Example Output
+This script performs the following operations on a file named `output.txt`:
 
-If the function is called with the number `5`, the output should be:
+1. **Write** user input to the file (overwriting any existing content)
+2. **Append** additional user input to the same file
+3. **Read** the final content and display it
 
-Factorial of 5 is: 120
+### 🔹 Features
+- Takes user input for writing and appending
+- Adds each entry on a new line using `\n`
+- Reads and displays final content
 
-## ✅ Task 2: Using the `math` Module for Calculations
+### 🧪 Example Run
+Enter text to write to the file: Hello, Python!
+Data successfully written to output.txt.
 
-### 🧩 Problem Statement
+Enter additional text to append: Learning file handling in python.
+Data successfully appended.
 
-Write a Python program that:
+Final content of output.txt:
+Hello, Python!
+Learning file handling in python.
 
-1. Prompts the user to enter a number.
-2. Uses the built-in `math` module to compute and display:
-   - ✅ The **square root** of the number
-   - ✅ The **natural logarithm (ln)** of the number
-   - ✅ The **sine** of the number (interpreted as radians)
+## 🛠 Requirements
 
-### 🧪 Example Output
-
-If the user enters `25`, the output should be:
-
-Square root: 5.0
-Logarithm: 3.2188758248682006
-Sine: -0.13235175009777303
+- Python 3.x installed
 
 ---
 
-## ✍️ Author
-- **Name:** Anshul Kavishwar
-- **Date:** 15/07/25
+## 🚀 How to Run
+
+```bash
+python task1.py    # For reading from sample.txt
+python task2.py    # For writing, appending, and reading output.txt
+Make sure to place sample.txt in the same directory if you're testing Task 1.
+
+📁 Files
+task1.py - Code for reading from a file
+
+task2.py - Code for writing/appending/reading a file
+
+output.txt - Created and used by Task 2
+
+sample.txt - (Optional) Used by Task 1 if present
